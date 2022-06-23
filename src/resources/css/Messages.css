@@ -1,0 +1,12 @@
+.messages-title, .p-text, .h3-text, .btn-pt {
+  margin-left: 26px;
+}
+
+.messages-title {
+  color: #023047;
+  margin-bottom: 10px;
+}
+
+.p-text {
+  padding-bottom: 10px;
+}

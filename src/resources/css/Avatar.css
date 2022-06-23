@@ -1,0 +1,15 @@
+.avatar {
+  border-radius: 50%;
+  /* background-color: rgb(29, 161, 242); */
+  /* background-image: url("https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"); */
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  flex: 0 0 auto;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.3em;
+  font-weight: 200;
+  text-transform: uppercase;
+}

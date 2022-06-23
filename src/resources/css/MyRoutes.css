@@ -1,0 +1,13 @@
+.header {
+  margin-top: 10px;
+}
+
+.routes-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.col-md {
+  padding-top: 20px;
+}

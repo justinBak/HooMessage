@@ -1,0 +1,20 @@
+.explore-container {
+  /* border: black solid 1px; */
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.container {
+  padding: 0;
+}
+
