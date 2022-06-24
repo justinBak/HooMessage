@@ -25,10 +25,10 @@ function App() {
   // It prevents mutation, which is why push() is not used
   const handlePostTweet = (content) => {
     const newTweet = {
-      content,
+
       // nanoid dynamically generates a random id every time the user adds a new tweet
       id: nanoid(),
-      //
+      content,
       created_on: Date(Date.now()),
       user: CURRENT_USER,
       comments_count: 0,
@@ -42,12 +42,12 @@ function App() {
     setTweets([...tweets, newTweet])
   };
 
-  // Handles favorites
+  // Controls the result from clicking on the favorites icon
   const handleToggleFavorite = (tweetId) => {
     const foundIndex = favorites.indexOf(tweetId);
 
     if(foundIndex > -1) {
-      // Return a new array without its id
+      // Found, return a new array without its id
       setFavorites(favorites.filter((favoriteId) => favoriteId !== tweetId));
     } else {
       // Not found in favorites, return a new array including its id
@@ -84,8 +84,8 @@ function App() {
             <a className='footer-info'>Ads info</a>
             <a className='footer-info'>More</a>
             <br/>
-            <span className='copyright-symbol'>&copy; </span>
-            <a className='copy-right'>2022 WeMessage</a>
+            <span className='copyright-symbol'>&copy;</span>
+            <a className='copy-right'>WeMessage 2022</a>
           </div>
         </div>
       </div>

@@ -29,8 +29,7 @@ const pusher = new Pusher({
 
 const newsapi = new NewsAPI(process.env.News_API_KEY);
 
-// fetchNews component determines what information is retrieved from the NewsApi and
-// sets the number of items returned from the API 
+// fetchNews component determines the data and amount being retrieved from the NewsApi
 const fetchNews = (searchTerm, pageNum) =>
   newsapi.v2.topHeadlines({
     q: searchTerm,
@@ -67,7 +66,7 @@ app.get('/live', (req, res) => {
     .catch(error => console.log(error));
 });
 
-// Sets and listens to the port by which data is retrieved from
+// Sets and listens to the port by which data is retrieved from in this case Port 5000
 app.set('port', process.env.PORT || 5000);
 const server = app.listen(app.get('port'), () => {
   console.log(`Express running ➡️  PORT ${server.address().port}`);

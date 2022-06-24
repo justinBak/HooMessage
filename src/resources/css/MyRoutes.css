@@ -1,3 +1,7 @@
+.col-md {
+  padding-top: 20px;
+}
+
 .header {
   margin-top: 10px;
 }
@@ -6,8 +10,4 @@
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 20px;
-}
-
-.col-md {
-  padding-top: 20px;
 }

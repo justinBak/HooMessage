@@ -7,6 +7,7 @@ import moment from 'moment';
 
 
 class NewsFeed extends Component {
+  
   // Contains a list of all news articles from the NewsApi
   // Array is updated everytime the page is loaded with updated news info
   state = {
@@ -36,7 +37,7 @@ class NewsFeed extends Component {
     });
   }
 
-  //Generates and renders the compose message and post it in the timeline 
+  // Renders the newsApi data
   render() {
     const NewsItem = (article, id) => (
       <div className='newsfeed-container'>

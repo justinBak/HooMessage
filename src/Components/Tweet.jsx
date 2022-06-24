@@ -1,6 +1,5 @@
 // Moment is a npm library which reads the dates and converts them to readable text
 import moment from 'moment';
-import PropTypes from 'prop-types';
 import Avatar from './Avatar';
 import '../resources/css/Tweet.css';
 
@@ -26,12 +25,6 @@ function Tweet(props) {
       </div>
     </div>
   )
-}
-
-// Used propTypes rather than TypeScript to check for type matches
-Tweet.propTypes = {
-  user: PropTypes.string,
-  createdOn: PropTypes.string,
 }
 
 export default Tweet;

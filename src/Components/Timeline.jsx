@@ -59,11 +59,4 @@ function Timeline({tweets, favorites, onRetweet, onToggleFavorite}) {
   )
 }
 
-Timeline.propTypes = {
-  tweets: PropTypes.array,
-  favorites: PropTypes.array,
-  onRetweet:PropTypes.func.isRequired,
-  onToggleFavorite: PropTypes.func.isRequired
-}
-
 export default Timeline;

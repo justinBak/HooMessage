@@ -50,17 +50,4 @@ function TweetActions({ user, content, favorite, counters, onRetweet, onToggleFa
   );
 }
 
-TweetActions.propTypes = {
-  user: PropTypes.string,
-  content: PropTypes.string,
-  favorite: PropTypes.bool,
-  counters: PropTypes.shape({
-    comments: PropTypes.number,
-    retweets: PropTypes.number,
-    favorites: PropTypes.number,
-  }),
-  onRetweet: PropTypes.func.isRequired,
-  onToggleFavorite: PropTypes.func.isRequired
-};
-
 export default TweetActions;

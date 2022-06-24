@@ -24,7 +24,6 @@ function NavSection() {
         <li className='explore-links'><Link className='nav-links' to='/list'><RiFileList3Line className = 'icon-style' size="1em"/><span>Lists</span></Link></li>
         <li className='explore-links'><Link className='nav-links' to='/profile'><CgProfile className = 'icon-style' size="1em"/><span>Profile</span></Link></li>
         <li className='explore-links'><Link className='nav-links' to='/more'><FiMoreHorizontal className = 'icon-style' size="1em"/><span>More</span></Link></li>
-        <li><button className='nav-btn explore-btn'>Compose</button></li>
       </ul>
     </div>
   )

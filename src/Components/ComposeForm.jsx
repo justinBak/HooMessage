@@ -1,9 +1,9 @@
-import PropTypes from 'prop-types';
 import {useState} from 'react';
 import Avatar from "./Avatar";
 import '../resources/css/ComposeForm.css';
 import {database} from '../config/firebase';
 import {nanoid} from 'nanoid';
+import moment from 'moment';
 
 //Posts a new Tweet
 function ComposeForm({onSubmit}) {
@@ -25,8 +25,10 @@ function ComposeForm({onSubmit}) {
     // in its Realtime Database 
     const form = {
       id: nanoid(),
-      message: editorValue
+      hooMessage: editorValue,
+      time: moment(Date()).fromNow()
     };
+
     // Prevents the default behavior of the form submission, which normally triggers a page reload
     e.preventDefault();
     
@@ -50,15 +52,12 @@ function ComposeForm({onSubmit}) {
           // onChange re-renders the component and updates it using the handleEditorValueChange function
           onChange={handleEditorValueChange} 
           className="compose-form-textarea" 
-          placeholder="What's happening?"/>
+          placeholder="What's happening?"
+        />
       </div>
       <button className="compose-form-submit">Send</button>
     </form>
   )
-}
-
-ComposeForm.propTypes = {
-  onSubmit:PropTypes.func.isRequired,
 }
 
 export default ComposeForm;
