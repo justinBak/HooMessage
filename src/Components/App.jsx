@@ -85,7 +85,7 @@ function App() {
             <a className='footer-info'>More</a>
             <br/>
             <span className='copyright-symbol'>&copy;</span>
-            <a className='copy-right'>WeMessage 2022</a>
+            <span className='copy-right'>HooMessage 2022</span>
           </div>
         </div>
       </div>
