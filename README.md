@@ -1,3 +1,6 @@
+# Live Link
+Firebase Hosting: https://messaging-app-a92c4.web.app
+
 # App Sources
 
 Twitter-clone: https://nicotsou.com/react-twitter-clone/
