@@ -50,7 +50,7 @@ li > a {
 
 .nav-container {
   margin-top: 10px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 .nav-links {
@@ -68,5 +68,6 @@ li > a {
 .row-container {
   width: 300px;
   margin: 0 auto;
-  padding-left: 40px;
+  margin-right: 22px;
+  float: right;
 }

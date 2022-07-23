@@ -15,7 +15,6 @@ function NavSection() {
   return (
     <div className="nav-container">
       <ul className='row row-container'>
-        {/* Change a tags to router dom Link tags */}
         <li className='explore-links'><Link className='nav-links' to='/'><AiOutlineHome className='icon-style' size="1em"/><span>Home</span></Link></li>
         <li className='explore-links'><Link className='nav-links' to='/explore'><GiEarthAmerica className='icon-style' size="1em"/><span>Explore</span></Link></li>
         <li className='explore-links'><Link className='nav-links' to='/notifications'><IoIosNotificationsOutline className = 'icon-style' size="1em"/><span>Notifications</span></Link></li>
