@@ -8,7 +8,7 @@ To run the project directory: Open the terminal make sure you're in the project'
 # Host Link
 Firebase Hosting: https://messaging-app-a92c4.web.app
 -----------------------------------------------------------------------------------------
-Pusher - In this project, I use Pusher to host, manage and deliver the NewsApi 
+Pusher - In this project, I used Pusher to host, manage and deliver the NewsApi 
 https://pusher.com/tutorials/live-news-feed-react/
 -----------------------------------------------------------------------------------------
 
