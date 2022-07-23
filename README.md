@@ -3,10 +3,10 @@ Firebase Hosting: https://messaging-app-a92c4.web.app
 
 # App Sources
 
-Twitter-clone - In this project, I use nicotsou's article to build the timeline and compose form component
+Twitter-clone - In this project, I used nicotsou's article to build the timeline and compose the form component
 https://nicotsou.com/react-twitter-clone/
 -----------------------------------------------------------------------------------------
-Pusher - In this project, I use Pusher to host, manage and deliver the NewsApi 
+Pusher - In this project, I used Pusher to host, manage and deliver the NewsApi 
 https://pusher.com/tutorials/live-news-feed-react/
 -----------------------------------------------------------------------------------------
 
